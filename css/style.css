@@ -1,6 +1,7 @@
 /* Header and Nav */
 
 header {
+  position: relative;
   height: 100vh;
   background-image: linear-gradient(
       rgba(34, 34, 34, 0.4),
@@ -13,7 +14,7 @@ header {
 
 .header {
   display: flex;
-  max-width: 140rem;
+  max-width: 150rem;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
@@ -39,4 +40,28 @@ header {
   color: hsl(0, 0%, 100%);
   display: inline-block;
   text-decoration: none;
+}
+
+.header-container {
+  width: 150rem;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+.header-container-inner {
+  width: 55%;
+  border: 2px solid hsl(0, 0%, 100%);
+  padding: 4.8rem;
+}
+
+.hero-headline {
+  letter-spacing: 0.2rem;
+  line-height: 1.1;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 100%);
+  font-size: 8.6rem;
+  font-weight: 300;
 }
