@@ -1,19 +1,28 @@
 /* Header and Nav */
 
-.header {
-  /* temp */
-  background-color: black;
+header {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.4),
+      rgba(34, 34, 34, 0.4)
+    ),
+    url(../images/desktop/image-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+.header {
   display: flex;
   max-width: 140rem;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
-  padding-top: 4.8rem;
+  padding-top: 6.4rem;
 }
 
 .main-logo {
-  height: 3.6rem;
+  height: 4.4rem;
+  cursor: pointer;
 }
 
 .main-nav-list {
