@@ -53,10 +53,11 @@ header {
 .header-container-inner {
   width: 55%;
   border: 2px solid hsl(0, 0%, 100%);
-  padding: 4.8rem;
+  padding: 4.4rem 4.8rem;
 }
 
-.hero-headline {
+.hero-headline,
+.interactive-title {
   letter-spacing: 0.2rem;
   line-height: 1.1;
   font-family: "Josefin Sans", sans-serif;
@@ -64,4 +65,43 @@ header {
   color: hsl(0, 0%, 100%);
   font-size: 8.6rem;
   font-weight: 300;
+}
+
+/* Leader Information Section */
+.interactive-section {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.information-container {
+  position: relative;
+  max-width: 150rem;
+  margin: 0 auto;
+  display: flex;
+  padding: 16.5rem 0;
+}
+
+.vr-man-img {
+  width: 100rem;
+}
+
+.right-text-container {
+  position: absolute;
+  background-color: hsl(0, 0%, 100%);
+  padding: 12rem 0 0 12rem;
+  width: 55%;
+  left: 51%;
+  top: 40%;
+}
+
+.interactive-title {
+  color: black;
+  font-size: 7.4rem;
+  margin-bottom: 2.3rem;
+}
+
+.interactive-description {
+  font-size: 2.4rem;
+  line-height: 1.5;
+  font-family: "Alata", sans-serif;
+  color: hsl(0, 0%, 41%);
 }
