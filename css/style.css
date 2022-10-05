@@ -42,6 +42,11 @@ header {
   text-decoration: none;
 }
 
+.main-nav-link:hover,
+.main-nav-link:active {
+  border-bottom: 0.2rem solid hsl(0, 0%, 100%);
+}
+
 .header-container {
   width: 150rem;
   position: absolute;
@@ -194,4 +199,53 @@ header {
 .gallery-item img {
   width: 100%;
   display: block;
+}
+
+footer {
+  background-color: #000;
+}
+
+.footer {
+  max-width: 150rem;
+  margin: 0 auto;
+  padding: 4.2em 0 1.8rem 0;
+}
+
+.logo-container-footer,
+.nav-container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-logo-footer {
+  height: 3.4rem;
+  cursor: pointer;
+}
+
+.footer-link img {
+  width: 2rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 1.4rem;
+  align-items: center;
+}
+
+.main-nav-link-footer:link,
+.main-nav-link-footer:visited {
+  color: hsl(0, 0%, 100%);
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  padding: 2.4rem 0;
+}
+
+.copyright-container {
+  font-family: "Alata", sans-serif;
+
+  color: hsl(0, 0%, 41%);
+  font-size: 1.4rem;
 }
