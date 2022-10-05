@@ -111,13 +111,13 @@ header {
 /* Our Creations Section */
 
 .our-creations-section {
+  max-width: 150rem;
+  margin: 0 auto;
 }
 
 .creations-header-container {
   display: flex;
-  max-width: 150rem;
-  margin: 0 auto;
-  padding: 0 0 16.5rem 0;
+  padding: 0 0 10.5rem 0;
   justify-content: space-between;
   align-items: center;
 }
@@ -141,4 +141,34 @@ header {
   color: #000;
   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
+}
+
+.creations-grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3.2rem;
+  padding-bottom: 16.5rem;
+}
+
+.gallery-item {
+  position: relative;
+}
+
+.vr-title {
+  position: absolute;
+  letter-spacing: 0.2rem;
+  line-height: 1.1;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 100%);
+  font-size: 4.4rem;
+  font-weight: 300;
+  z-index: 9999;
+  bottom: 3.5rem;
+  left: 4.5rem;
+}
+
+.gallery-item img {
+  width: 100%;
+  display: block;
 }
