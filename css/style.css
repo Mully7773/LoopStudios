@@ -42,10 +42,26 @@ header {
   text-decoration: none;
 }
 
-.main-nav-link:hover,
-.main-nav-link:active {
-  border-bottom: 0.2rem solid hsl(0, 0%, 100%);
+/* For 50% hover bottom border */
+.right-links a::after {
+  content: "";
+  display: block;
+  padding-top: 0.8rem;
+  width: 50%;
+  margin: 0 auto;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
 }
+
+.right-links a:hover::after {
+  content: "";
+  display: block;
+  padding-top: 0.8rem;
+  width: 50%;
+  margin: 0 auto;
+  border-bottom: 2px solid white;
+}
+/*  */
 
 .header-container {
   width: 150rem;
