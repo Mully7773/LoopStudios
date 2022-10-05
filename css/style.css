@@ -57,7 +57,8 @@ header {
 }
 
 .hero-headline,
-.interactive-title {
+.interactive-title,
+.creations-text {
   letter-spacing: 0.2rem;
   line-height: 1.1;
   font-family: "Josefin Sans", sans-serif;
@@ -87,14 +88,15 @@ header {
 .right-text-container {
   position: absolute;
   background-color: hsl(0, 0%, 100%);
-  padding: 12rem 0 0 12rem;
+  padding: 12rem 0 0 10rem;
   width: 55%;
-  left: 51%;
+  left: 50%;
   top: 40%;
 }
 
-.interactive-title {
-  color: black;
+.interactive-title,
+.creations-text {
+  color: #000;
   font-size: 7.4rem;
   margin-bottom: 2.3rem;
 }
@@ -104,4 +106,39 @@ header {
   line-height: 1.5;
   font-family: "Alata", sans-serif;
   color: hsl(0, 0%, 41%);
+}
+
+/* Our Creations Section */
+
+.our-creations-section {
+}
+
+.creations-header-container {
+  display: flex;
+  max-width: 150rem;
+  margin: 0 auto;
+  padding: 0 0 16.5rem 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.creations-text {
+  margin-bottom: 0;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  letter-spacing: 0.3rem;
+  display: inline-block;
+  padding: 1.6rem 5.2rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  font-size: 1.8rem;
+  border: 3px solid hsl(0, 0%, 41%);
+  font-weight: 600;
+  cursor: pointer;
+  color: #000;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
 }
