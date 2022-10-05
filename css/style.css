@@ -162,6 +162,14 @@ header {
   color: #000;
   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #000;
+  color: hsl(0, 0%, 100%);
+  border: 3px solid #000;
 }
 
 .creations-grid-gallery {
