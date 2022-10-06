@@ -43,7 +43,9 @@ header {
 }
 
 /* For 50% hover bottom border */
-.right-links a::after {
+.right-links a::after,
+.left-links a::after,
+.social-links a::after {
   content: "";
   display: block;
   padding-top: 0.8rem;
@@ -52,14 +54,25 @@ header {
   border-bottom: 2px solid transparent;
   transition: all 0.3s;
 }
+.social-links a::after {
+  width: 100%;
+  padding-top: 0.6rem;
+}
 
-.right-links a:hover::after {
+.right-links a:hover::after,
+.left-links a:hover::after,
+.social-links a:hover::after {
   content: "";
   display: block;
   padding-top: 0.8rem;
   width: 50%;
   margin: 0 auto;
   border-bottom: 2px solid white;
+}
+
+.social-links a:hover::after {
+  width: 100%;
+  padding-top: 0.6rem;
 }
 /*  */
 
@@ -274,6 +287,7 @@ footer {
 .main-logo-footer {
   height: 3.4rem;
   cursor: pointer;
+  /* padding-bottom: 0.8rem; */
 }
 
 .footer-link img {
@@ -285,6 +299,7 @@ footer {
   display: flex;
   gap: 1.4rem;
   align-items: center;
+  padding-top: 0.6rem;
 }
 
 .main-nav-link-footer:link,
