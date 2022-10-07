@@ -147,6 +147,10 @@ header {
   top: 40%;
 }
 
+.logo-container-menu {
+  display: none;
+}
+
 .interactive-title,
 .creations-text {
   color: #000;
