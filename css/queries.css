@@ -4,6 +4,11 @@
     overflow-x: hidden;
   }
 
+  body {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
   html {
     font-size: 50%;
   }
@@ -110,4 +115,35 @@
   .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
+
+  /* Our Creations Section */
+  /* .our-creations-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 80% 10%;
+  } */
+
+  .creations-header-container {
+    text-align: center;
+    display: block;
+    padding: 0;
+  }
+
+  .btn-container {
+    display: none;
+  }
+
+  .btn-container-mobile {
+    display: block;
+    text-align: center;
+  }
+
+  .creations-grid-gallery {
+    grid-template-columns: 1fr;
+  }
+  /* 
+  .gallery-item img {
+    height: 30rem;
+    width: 50rem;
+  } */
 }
