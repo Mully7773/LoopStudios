@@ -1,5 +1,9 @@
 /* Below 1560px */
 @media (max-width: 97.5em) {
+  * {
+    overflow-x: hidden;
+  }
+
   html {
     font-size: 50%;
   }
@@ -40,7 +44,7 @@
 
   .right-links {
     background-color: #000;
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px); */
     position: absolute;
     top: 0;
     left: 0;
