@@ -1,0 +1,34 @@
+/* Below 1560px */
+@media (max-width: 97.5em) {
+  html {
+    font-size: 50%;
+  }
+
+  .header-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .interactive-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .information-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    max-width: 120rem;
+    text-align: center;
+  }
+
+  .right-text-container {
+    position: static;
+    width: 100%;
+  }
+}
