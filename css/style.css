@@ -309,23 +309,22 @@ footer {
   max-width: 150rem;
   margin: 0 auto;
   padding: 4.2em 0 1.8rem 0;
-}
-
-.logo-container-footer,
-.nav-container-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .main-logo-footer {
   height: 3.4rem;
   cursor: pointer;
-  /* padding-bottom: 0.8rem; */
 }
 
 .footer-link img {
   width: 2rem;
+}
+
+.social-links-container {
+  align-self: flex-end;
+  justify-self: flex-end;
 }
 
 .social-links {
@@ -347,7 +346,8 @@ footer {
 
 .copyright-container {
   font-family: "Alata", sans-serif;
-
+  align-self: center;
+  justify-self: flex-end;
   color: hsl(0, 0%, 41%);
   font-size: 1.4rem;
 }
