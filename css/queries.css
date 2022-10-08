@@ -117,16 +117,18 @@
   }
 
   /* Our Creations Section */
-  /* .our-creations-section {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 10% 80% 10%;
-  } */
+  .our-creations-section {
+    padding-bottom: 14.6rem;
+  }
 
   .creations-header-container {
     text-align: center;
     display: block;
     padding: 0;
+  }
+
+  .creations-text {
+    font-size: 9.6rem;
   }
 
   .text-container {
@@ -144,7 +146,7 @@
 
   .creations-grid-gallery {
     grid-template-columns: 1fr;
-    gap: 6.4rem;
+    gap: 8rem;
     padding-bottom: 9.6rem;
   }
 
@@ -153,9 +155,14 @@
     bottom: 6.5rem;
     left: 8.5rem;
   }
-  /* 
-  .gallery-item img {
-    height: 30rem;
-    width: 50rem;
-  } */
+
+  .btn,
+  .btn:link,
+  btn:visited {
+    letter-spacing: 0.9rem;
+    padding: 2.6rem 8.2rem;
+    font-size: 4.8rem;
+    border: 2px solid #000;
+    font-weight: 400;
+  }
 }
