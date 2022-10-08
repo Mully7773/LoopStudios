@@ -27,8 +27,8 @@
   .interactive-section {
     display: grid;
     grid-template-columns: 1fr;
-    align-items: center;
-    justify-items: center;
+    /* align-items: center;
+    justify-items: center; */
   }
 
   .information-container {
@@ -36,13 +36,15 @@
     grid-template-columns: 1fr;
     align-items: center;
     justify-items: center;
-    max-width: 120rem;
+    max-width: 100rem;
     text-align: center;
   }
 
   .right-text-container {
     position: static;
     width: 100%;
+    padding-top: 6.4rem;
+    padding-left: 0;
   }
 
   /* MOBILE NAVIGATION */
