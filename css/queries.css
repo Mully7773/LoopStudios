@@ -48,12 +48,16 @@
     font-size: 4.8rem;
   }
 
+  .vr-man-img {
+    width: 50rem;
+  }
+
   .information-container {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
     justify-items: center;
-    max-width: 100rem;
+    max-width: 50rem;
     text-align: center;
   }
 
@@ -102,7 +106,7 @@
   .logo-container-menu {
     display: inline-block;
     width: 100%;
-    margin-bottom: 16rem;
+    margin-bottom: 8rem;
   }
 
   .main-nav-link:link,
@@ -137,6 +141,7 @@
 
   /* Our Creations Section */
   .our-creations-section {
+    max-width: 50rem;
     padding-bottom: 14.6rem;
   }
 
@@ -254,19 +259,20 @@
 
 @media (max-width: 53.85em) {
   html {
-    font-size: 30%;
+    font-size: 29%;
   }
 
   .header {
-    max-width: 50rem;
+    max-width: 40rem;
   }
 
   .header-container-inner {
-    max-width: 30rem;
+    max-width: 32.5rem;
+    padding: 3.2rem 4.4rem;
   }
 
   .main-logo-mobile {
-    height: 2.2rem;
+    height: 3.2rem;
   }
   .information-container {
     max-width: 70rem;
