@@ -1,5 +1,8 @@
 /* Below 1560px */
-@media (max-width: 97.5em) {
+/* 62.5em for 1000px */
+/* Below */
+
+@media (max-width: 87.5em) {
   * {
     overflow-x: hidden;
     /* To fix vertical line bug in mobile open menu */
