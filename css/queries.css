@@ -49,7 +49,7 @@
   }
 
   .vr-man-img {
-    width: 45rem;
+    width: 35rem;
   }
 
   .information-container {
@@ -57,7 +57,7 @@
     grid-template-columns: 1fr;
     align-items: center;
     justify-items: center;
-    max-width: 50rem;
+    max-width: 35rem;
     text-align: center;
   }
 
@@ -141,7 +141,7 @@
 
   /* Our Creations Section */
   .our-creations-section {
-    max-width: 40rem;
+    max-width: 35rem;
     padding-bottom: 14.6rem;
   }
 
@@ -275,11 +275,11 @@
     height: 3.2rem;
   }
   .information-container {
-    max-width: 45rem;
+    max-width: 35rem;
   }
 
   .interactive-description {
-    max-width: 68rem;
+    max-width: 35rem;
   }
 }
 
