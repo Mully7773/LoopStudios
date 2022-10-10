@@ -161,14 +161,14 @@
 
   .creations-grid-gallery {
     grid-template-columns: 1fr;
-    gap: 8rem;
+    gap: 4.6rem;
     padding-bottom: 9.6rem;
   }
 
   .vr-title {
     font-size: 7.4rem;
-    bottom: 6.5rem;
-    left: 8.5rem;
+    bottom: 3rem;
+    left: 4rem;
   }
 
   .btn,
@@ -230,16 +230,17 @@
   .main-nav-list-footer {
     flex-direction: column;
     align-items: center;
+    gap: 1.6rem;
   }
 
   .main-nav-link-footer:link,
   .main-nav-link-footer:visited {
     padding: 0;
-    font-size: 2.4rem;
+    font-size: 3.4rem;
   }
 
   .footer-link img {
-    width: 4rem;
+    width: 3rem;
   }
 
   .social-links {
