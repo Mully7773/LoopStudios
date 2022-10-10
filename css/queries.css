@@ -33,6 +33,10 @@
     align-items: center;
   }
 
+  .header-container-inner {
+    width: 75rem;
+  }
+
   .interactive-section {
     display: grid;
     grid-template-columns: 1fr;
@@ -254,7 +258,22 @@
   }
 
   .header {
-    max-width: 100rem;
+    max-width: 70rem;
+  }
+
+  .header-container-inner {
+    max-width: 70rem;
+  }
+
+  .main-logo-mobile {
+    height: 2.2rem;
+  }
+  .information-container {
+    max-width: 70rem;
+  }
+
+  .interactive-description {
+    max-width: 68rem;
   }
 }
 
