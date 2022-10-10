@@ -11,6 +11,22 @@ Visit the landing page here: https://mully7773.github.io/LoopStudios/
 
 ## Screenshots
 
+![Screenshot of header](./images/screenshots/header.png)
+
+<br>
+
+![Screenshot of VR image and text](./images/screenshots/image-and-text.png)
+
+<br>
+
+![Screenshot of gallery](./images/screenshots/gallery.png)
+
+<br>
+
+![Screenshot of footer](./images/screenshots/footer.png)
+
+<br>
+
 ## Description
 
 This is a challenge from Frontend Mentor. You can find more information about it [here](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw).
