@@ -101,7 +101,7 @@
 
   .logo-container-menu {
     display: inline-block;
-    width: 75%;
+    width: 100%;
     margin-bottom: 16rem;
   }
 
@@ -258,11 +258,11 @@
   }
 
   .header {
-    max-width: 70rem;
+    max-width: 50rem;
   }
 
   .header-container-inner {
-    max-width: 70rem;
+    max-width: 30rem;
   }
 
   .main-logo-mobile {
