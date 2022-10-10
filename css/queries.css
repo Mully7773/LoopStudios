@@ -248,10 +248,14 @@
   html {
     font-size: 30%;
   }
+
+  .header {
+    max-width: 100rem;
+  }
 }
 
 @media (max-width: 25em) {
   html {
-    font-size: 20%;
+    font-size: 22%;
   }
 }
