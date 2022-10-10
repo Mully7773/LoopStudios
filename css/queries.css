@@ -49,7 +49,7 @@
   }
 
   .vr-man-img {
-    width: 50rem;
+    width: 45rem;
   }
 
   .information-container {
@@ -106,7 +106,7 @@
   .logo-container-menu {
     display: inline-block;
     width: 100%;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
   }
 
   .main-nav-link:link,
@@ -141,7 +141,7 @@
 
   /* Our Creations Section */
   .our-creations-section {
-    max-width: 50rem;
+    max-width: 40rem;
     padding-bottom: 14.6rem;
   }
 
@@ -263,19 +263,19 @@
   }
 
   .header {
-    max-width: 40rem;
+    max-width: 35rem;
   }
 
   .header-container-inner {
     max-width: 32.5rem;
-    padding: 3.2rem 4.4rem;
+    padding: 3.2rem 3.2rem;
   }
 
   .main-logo-mobile {
     height: 3.2rem;
   }
   .information-container {
-    max-width: 70rem;
+    max-width: 45rem;
   }
 
   .interactive-description {
