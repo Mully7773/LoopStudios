@@ -2,6 +2,8 @@
 @media (max-width: 97.5em) {
   * {
     overflow-x: hidden;
+    /* To fix vertical line bug in mobile open menu */
+    /* box-sizing: initial; */
   }
 
   body {
@@ -17,6 +19,10 @@
     align-items: flex-start;
   }
 
+  .right-links * {
+    box-sizing: initial;
+  }
+
   .header-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -29,6 +35,10 @@
     grid-template-columns: 1fr;
     /* align-items: center;
     justify-items: center; */
+  }
+
+  .interactive-description {
+    font-size: 4.8rem;
   }
 
   .information-container {
@@ -160,7 +170,7 @@
 
   .btn,
   .btn:link,
-  btn:visited {
+  .btn:visited {
     letter-spacing: 0.9rem;
     padding: 2.6rem 8.2rem;
     font-size: 4.8rem;
@@ -231,5 +241,17 @@
 
   .social-links {
     gap: 2.6rem;
+  }
+}
+
+@media (max-width: 53.85em) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media (max-width: 25em) {
+  html {
+    font-size: 20%;
   }
 }
